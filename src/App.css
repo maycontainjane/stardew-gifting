@@ -6,6 +6,14 @@
     color: #61dafb;
 }
 
+.VillagerList-category {
+    padding: 5px;
+}
+
+.VillagerList-categories {
+    padding: 10px;
+}
+
 .VillagerList-category-image {
     width: 25px;
     height: 25px;
@@ -16,7 +24,7 @@
     height: 50px;
 }
 
-.ItemLists {
+.ItemLists-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -30,9 +38,42 @@
     background-color: plum;
 }
 
-.VillagerList-names {
-    width: 60%;
+.VillagerList-container {
     display: flex;
-    flex-wrap: wrap;
+    width: 70%;
+    padding: 0 200px;
+}
+
+.VillagerList-names {
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.VillagerList-names-container {
+    display: flex;
+    justify-content: center;
+}
+
+.VillagerList-villager {
+    width: 70px;
+}
+
+.CurrentVillager-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.ItemLists {
+    text-align: center;
+}
+
+.ItemList-container {
+    width: 20%;
+    padding: 10px;
+}
+
+.ItemList-item {
+    padding: 5px;
+    display: inline-block;
 }
