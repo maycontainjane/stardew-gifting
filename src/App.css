@@ -1,79 +1,134 @@
-.App {
+html {
     text-align: center;
+    color: #151229;
+    height: 100%;
+    background-image: linear-gradient(to bottom, lightblue, paleturquoise, darkseagreen);
+    cursor: default;
 }
 
-.App-link {
-    color: #61dafb;
-}
-
-.VillagerList-category {
+button {
+    border: 1px solid mediumslateblue;
+    border-radius: 10px;
+    margin: 2px;
+    color: #151229;
+    background-color: white;
     padding: 5px;
 }
 
-.VillagerList-categories {
-    padding: 10px;
+button:hover {
+    background-color: mediumslateblue;
+    color: white;
+    cursor: pointer;
 }
 
-.VillagerList-category-image {
-    width: 25px;
-    height: 25px;
+.VillagerView__category {
+    border-radius: 5px;
 }
 
-.VillagerList-villager-image {
-    width: 50px;
-    height: 50px;
+.VillagerView__villagerSelection {
+    margin: 0 10px;
 }
 
-.ItemLists-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.VillagerList-active {
-    background-color: plum;
-}
-
-.category-active {
-    background-color: plum;
-}
-
-.VillagerList-container {
-    display: flex;
-    width: 70%;
-    padding: 0 200px;
-}
-
-.VillagerList-names {
+.VillagerView__villagerSelectionContainer {
     display: flex;
     justify-content: center;
+}
+
+.VillagerView__villagerList {
+    display: flex;
     flex-wrap: wrap;
+    width: 80%;
 }
 
-.VillagerList-names-container {
-    display: flex;
-    justify-content: center;
+.VillagerView__villagerButton--active, .VillagerView__category--active {
+    background-color: mediumslateblue;
+    color: white;
+    cursor: default;
 }
 
-.VillagerList-villager {
+.VillagerView__villagerButtonImage {
     width: 70px;
+    height: 70px;
+    padding: 1px;
 }
 
-.CurrentVillager-name {
-    font-size: 1.2em;
+.VillagerView__villagerButtonName {
     font-weight: bold;
 }
 
-.ItemLists {
-    text-align: center;
-}
-
-.ItemList-container {
-    width: 20%;
+.VillagerView__currentVillagerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 10px;
 }
 
-.ItemList-item {
+.VillagerView__currentVillager {
+    height: 50%;
+}
+
+.VillagerView__currentVillagerName {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.VillagerView__itemList {
+    display: flex;
+    justify-content: center;
+}
+
+.VillagerView__universal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.VillagerView__universalButton {
+    height: 100%;
+}
+
+.VillagerView__searchbar {
+    text-align: left;
+    padding-top: 25px;
+    width: 90%;
+}
+
+.VillagerView__searchbarLabel {
+    font-weight: bold;
     padding: 5px;
-    display: inline-block;
+}
+
+.VillagerView__searchbarInput {
+    width: 90%;
+}
+
+.VillagerView__universalButton > .VillagerView__villagerButtonName {
+    font-size: 1.2em;
+}
+
+.ItemList {
+    padding: 15px;
+    width: 20%;
+}
+
+.ItemList__itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.ItemList__item {
+    padding: 6px;
+    border: 1px solid mediumslateblue;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: rgba(221, 217, 243, 50%);
+}
+
+.ItemList__item:hover {
+    background-color: mediumslateblue;
+    color: white;
 }

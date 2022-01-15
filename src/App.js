@@ -1,6 +1,6 @@
 import './App.css';
-import VillagerView from './VillagerView.js';
-import ItemView from './ItemView.js';
+import VillagerView from './villagerview/VillagerView.js';
+import ItemView from './itemview/ItemView.js';
 import { useState } from 'react';
 
 function App() {

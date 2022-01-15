@@ -33,7 +33,8 @@ const villagerImages = {
     "Shane": require('./Shane.png'), 
     "Vincent": require('./Vincent.png'), 
     "Willy": require('./Willy.png'), 
-    "Wizard": require('./Wizard.png')
+    "Wizard": require('./Wizard.png'),
+    "Universal": require('./Universal.png')
 }
 
 export default villagerImages;
