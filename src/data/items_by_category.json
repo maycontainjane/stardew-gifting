@@ -1,0 +1,13 @@
+{
+    "Artisan Goods": ["Maple Syrup", "Oil", "Void Mayonnaise"],
+    "Artifacts": [],
+    "Cooked Meals": ["Fried Egg", "Bread", "Strange Bun", "Seafoam Pudding"],
+    "Flowers": ["Poppy"],
+    "Forage": ["Clam", "Coral"],
+    "Foraged Minerals": ["Quartz"],
+    "Fruits": ["Banana", "Mango"],
+    "Gems": [],
+    "Vegetables": [],
+    "Fish": [],
+    "Unsure": ["Hops", "Tea Leaves", "Wheat", "Unmilled Rice"]
+}

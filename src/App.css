@@ -1,0 +1,38 @@
+.App {
+    text-align: center;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.VillagerList-category-image {
+    width: 25px;
+    height: 25px;
+}
+
+.VillagerList-villager-image {
+    width: 50px;
+    height: 50px;
+}
+
+.ItemLists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.VillagerList-active {
+    background-color: plum;
+}
+
+.category-active {
+    background-color: plum;
+}
+
+.VillagerList-names {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
