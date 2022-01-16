@@ -7,9 +7,9 @@ There are a lot of gift guides, and there's even one in the game you build up ov
 - sorts villagers by category (courtable, bachelor, bachelorette)
 - shows portrait of current villager selected
 - shows loves/likes/neutrals/dislikes/hates
+- Looks pretty cute
+- filters items with search box
 
 ## Planned Features
 - highlight exceptions to "All" tastes
-- search bar
-- make it cute
 - draw portraits

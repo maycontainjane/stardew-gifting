@@ -21,8 +21,22 @@ button:hover {
     cursor: pointer;
 }
 
+.App__headerText {
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    color: mediumslateblue;
+    font-weight: bold;
+    font-family: 'Averia Gruesa Libre';
+}
+
+.VillagerView__villagerButtonName, .VillagerView__currentVillagerName, .ItemList__header, .VillagerView__searchbarLabel, .VillagerView__category {
+    font-family: 'Averia Gruesa Libre';
+}
+
 .VillagerView__category {
     border-radius: 5px;
+    font-size: 1.2em;
 }
 
 .VillagerView__villagerSelection {
@@ -96,6 +110,7 @@ button:hover {
 
 .VillagerView__searchbarLabel {
     font-weight: bold;
+    font-size: 1.25em;
     padding: 5px;
 }
 
@@ -116,7 +131,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-height: 60vh;
+    max-height: 55vh;
     overflow-y: auto;
 }
 
