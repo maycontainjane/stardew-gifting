@@ -19,7 +19,7 @@ function VillagerView() {
     const [filterText, setFilterText] = useState("");
     
     const tastes = ["loves", "likes", "neutral", "dislikes", "hates"];
-    const categories = ["all", "marriageable", "bachelors", "bachelorettes"];
+    const categories = ["all", "marriageable", "bachelors", "bachelorettes", "non-marriageable"];
 
     const changeCategory = (category) => {
         setVillagerList(villager_categories[category]);

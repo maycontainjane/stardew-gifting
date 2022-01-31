@@ -95,7 +95,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 50%;
 }
 
 .VillagerView__universalButton {

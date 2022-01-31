@@ -1,15 +1,14 @@
 {
-    "all": 
-        [
-            "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", 
-            "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", 
-            "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", 
-            "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", 
-            "Wizard"
-        ],
+    "all": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", 
+        "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", 
+        "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", 
+        "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", 
+        "Wizard"],
     "bachelors": ["Alex", "Elliott", "Harvey", "Sam", "Sebastian", "Shane"],
     "bachelorettes": ["Abigail", "Emily", "Haley", "Leah", "Maru", "Penny"],
     "marriageable": ["Alex", "Elliott", "Harvey", "Sam", "Sebastian", "Shane", "Abigail", 
-        "Emily", "Haley", "Leah", "Maru", "Penny"]
-
+        "Emily", "Haley", "Leah", "Maru", "Penny"],
+    "non-marriageable": ["Caroline", "Clint", "Demetrius", "Dwarf", "Evelyn", "George",
+        "Gus", "Jas", "Jodi", "Kent", "Krobus", "Leo", "Lewis", "Linus", "Marnie", "Pam",
+        "Pierre", "Robin", "Sandy", "Vincent", "Willy", "Wizard"]
 }
