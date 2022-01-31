@@ -35,7 +35,7 @@ function App() {
                     <span class="close" onClick={() => openModal()}>&times;</span>
                     This guide is still a work in progress. 
                     A known bug is duplicate items showing up (universal tastes AND villager tastes sometimes conflict). In this case, 
-                    the <span className="ItemList__item">Pink-Highlighted Item</span> takes prescedence. 
+                    the <span className="ItemList__item">Pink-Highlighted Item</span> takes precedence. 
                     Please submit other bugs or data corrections to me <a href="https://github.com/maycontainjane/stardew-gifting/issues">here!</a>
                 </div>
             }
