@@ -147,13 +147,13 @@
     "Jas":
     {
         "loves": ["Fairy Rose", "Pink Cake", "Plum Pudding"],
-        "likes": ["Coconut", "Daffodil"],
+        "likes": ["Coconut", "Daffodil", "Honey", "Jelly"],
         "neutral": ["All Milk"],
         "dislikes": ["All Eggs", "All Fruit", "All Vegetables", "Chanterelle", 
             "Common Mushroom", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", 
             "Magma Cap", "Morel", "Purple Mushroom", "Quartz", "Snow Yam", 
             "Winter Root"],
-        "hates": ["All Artisan Goods (Except Honey, Jelly, Oil)", "Clay", 
+        "hates": ["All Artisan Goods", "Clay", 
             "Pina Colada", "Triple Shot Espresso", "Wild Horseradish"]
     },
     "Jodi":
@@ -355,13 +355,13 @@
     "Vincent":
     {
         "loves": ["Cranberry Candy", "Ginger Ale", "Grape", "Pink Cake", "Snail"],
-        "likes": ["Coconut", "Daffodil"],
+        "likes": ["Coconut", "Daffodil", "Honey", "Jelly"],
         "neutral": ["All Milk"],
         "dislikes": ["Chanterelle", "Common Mushroom", "Dandelion", 
             "Ginger", "Hazelnut", "Holly", "Leek", "Magma Cap", "Morel",
             "Purple Mushroom", "Quartz", "Snow Yam", 
             "Winter Root"],
-        "hates": ["All Artisan Goods (Except Honey, Jelly, Oil)", "Clay", "Pina Colada", 
+        "hates": ["All Artisan Goods", "Clay", "Pina Colada", 
             "Triple Shot Espresso", "Wild Horseradish"]
     },
     "Willy":

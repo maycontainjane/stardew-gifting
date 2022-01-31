@@ -17,7 +17,7 @@ function App() {
 
     return (
         <div className="App">
-            <div ClassName="App__header">
+            <div className="App__header">
                 <div className="App__headerText">Stardew Gift Guide</div>
             </div>
             {pageView}

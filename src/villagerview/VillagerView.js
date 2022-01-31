@@ -71,7 +71,7 @@ function VillagerView() {
                         )}
                     </div>
                     <div className={classNames("VillagerView__currentVillagerContainer", {"VillagerView__currentVillagerContainer-universal": currentVillager === "Universal"})}>
-                        <div ClassName="VillagerView__currentVillager">
+                        <div className="VillagerView__currentVillager">
                             <img className="VillagerView__currentVillagerImage" alt={currentVillager + "'s portrait"} src={villagerImages[currentVillager]} />
                             <div className="VillagerView__currentVillagerName">{currentVillager}</div>
                         </div>

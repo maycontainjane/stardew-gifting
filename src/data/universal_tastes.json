@@ -15,9 +15,9 @@
             "Wool"]
     },
     "dislikes": {
-        "items": ["All Building Materials", "All Artifacts", "All Bombs", "All Crafted Floors/Paths", 
+        "items": ["All Resources", "All Artifacts", "All Bombs", "All Floors and Paths", 
             "All Fences", "All Fertilizer", "All Fish", "All Geode Minerals", "All Geodes", "All Seeds", 
-            "All  Sprinklers", "All Tackle", "Bone Fragment", "Cinder Shard", "Coal", "Copper Bars", 
+            "All Sprinklers", "All Tackle", "Bone Fragment", "Cinder Shard", "Coal", "Copper Bars", 
             "Gold Bars", "Gold Ore", "Iridium Bars", "Iron Bars", "Refined Quartz", "Cave Carrot", "Driftwood", 
             "Field Snack", "Jack-O-Lantern", "Oak Resin", "Oil", "Pine Tar", "Qi Fruit", "Rice", "Solar Essence", 
             "Spring Onion", "Tea Set", "Unmilled Rice", "Vinegar", "Void Egg", "Void Essence", "Wheat Flour"],

@@ -136,13 +136,25 @@ button:hover {
 
 .ItemList__item {
     padding: 6px;
-    border: 1px solid mediumslateblue;
+    border: 1px solid rgb(194, 88, 185);
     border-radius: 10px;
     margin: 2px;
-    background-color: rgba(221, 217, 243, 50%);
+    background-color: rgba(241, 161, 215, 0.5);
+    ;
 }
 
 .ItemList__item:hover {
-    background-color: mediumslateblue;
+    background-color: rgb(194, 88, 185);
     color: white;
+}
+
+.universal {
+    border: 1px solid mediumslateblue;
+    background-color: rgba(221, 217, 243, 50%);
+
+}
+
+.universal:hover {
+    background-color: mediumslateblue;
+    color:white;
 }
